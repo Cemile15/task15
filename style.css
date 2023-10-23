@@ -1,0 +1,364 @@
+.ss1 {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ss1 h1 {
+  font-size: 20px;
+  color: black;
+}
+.ss1 ul {
+  list-style: none;
+  display: flex;
+}
+.ss1 li {
+  margin: 20px;
+  font-size: 20px;
+}
+.ss1 .list {
+  font-size: 20px;
+  color: black;
+  display: none;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(resturant.webp);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  -webkit-clip-path: polygon(0 0, 100% 1%, 100% 62%, 0% 100%);
+          clip-path: polygon(0 0, 100% 1%, 100% 62%, 0% 100%);
+}
+.box h2 {
+  color: aliceblue;
+  height: 90px;
+  text-align: center;
+  font-size: 40px;
+}
+.box .ss2 {
+  position: absolute;
+  left: px;
+  font-size: 25px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: white;
+}
+
+.box1 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.box1 .sekil1 {
+  width: 250px;
+  height: 200px;
+}
+.box1 .box2 {
+  width: 250px;
+  height: 200px;
+}
+.box1 .sekil22 {
+  width: 150px;
+  height: 80px;
+}
+.box1 .sekil2 {
+  width: 150px;
+  height: 80px;
+}
+
+.huyi2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.huyi2 .huyi3 {
+  width: 500px;
+  height: 210px;
+  margin: 30px;
+  flex-direction: column;
+}
+.huyi2 h4 {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+.huyi2 .pp1 {
+  color: gray;
+}
+.huyi2 .huyi4 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.huyi2 .huyi4 div {
+  width: 200px;
+  height: 250px;
+}
+.huyi2 .sekil3 {
+  width: 200px;
+  height: 250px;
+}
+
+.huyi5 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.huyi5 .huyi6 {
+  width: 500px;
+  height: 210px;
+  margin: 20px;
+  flex-direction: column;
+}
+.huyi5 h5 {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+.huyi5 .huyi7 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.huyi5 .huyi7 div {
+  width: 250px;
+  height: 300px;
+}
+.huyi5 .sekil6 {
+  width: 250px;
+  height: 300px;
+}
+
+.huyi8 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.huyi8 .huyi9 {
+  width: 200px;
+  height: 100px;
+}
+.huyi8 h4 {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+.huyi8 .huyi10 {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+.huyi8 .huyi10 div {
+  width: 25%;
+  height: 150px;
+}
+.huyi8 .huyi10 div img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.huyi8 .g1 {
+  font-size: 10px;
+  text-align: center;
+}
+.huyi8 .money {
+  font-size: 20px;
+  color: brown;
+}
+.huyi8 .date {
+  font-size: 15px;
+  color: gray;
+}
+
+.huyi11 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.huyi11 .huyi12 {
+  width: 200px;
+  height: 100px;
+}
+.huyi11 .huyi13 {
+  width: 400px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+}
+.huyi11 h4 {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+.huyi11 .text {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.huyi11 .daire .profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.huyi11 .text1 {
+  width: 200px;
+  height: 60px;
+}
+.huyi11 .text11 {
+  font-size: 20px;
+  color: grey;
+}
+
+.blog {
+  width: 100%;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.blog .bl1 {
+  width: 200px;
+  height: 100px;
+}
+.blog .sekiller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.blog .huyi14 {
+  width: 450px;
+  height: 300px;
+}
+.blog .huyi15 {
+  width: 450px;
+  height: 300px;
+}
+.blog .sekil66 {
+  width: 450px;
+  height: 300px;
+}
+.blog .yazi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.blog .yazi1 {
+  width: 450px;
+  height: 300px;
+}
+.blog h6 {
+  font-size: 20px;
+  color: brown;
+}
+.blog .yazi11 {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.blog .yazi111 {
+  color: gray;
+}
+.blog .boxes {
+  font-size: 20px;
+  border: 2px;
+  border-radius: 40px;
+  color: brown;
+}
+.blog .bl1 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.end {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.end .end1 {
+  width: 300px;
+  height: 300px;
+}
+.end .date {
+  font-size: 15px;
+  color: gray;
+}
+.end .yazi12 {
+  font-size: 15px;
+}
+.end .yazi122 {
+  font-size: 15px;
+}
+.end .yazi1222 {
+  font-size: 15px;
+}
+.end .link {
+  font-size: 20px;
+  color: brown;
+  margin: 10px;
+}
+.end .reng {
+  color: grey;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+  ul {
+    display: none;
+  }
+  .list {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
